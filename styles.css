@@ -1,13 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 #content {
     color: white;
     font-size: 40px;
-    background-color: green;
+    background-color: rgb(96, 170, 80);
     text-align: center;
-    padding: auto;
     margin: auto;
-    width: 20%;
-    height: 370px;
+    width: 25%;
+    height: 100%;
     display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 h1 {
@@ -16,14 +26,72 @@ h1 {
 }
 
 .bt {
-    height: 60px;
-    width: 60px;
+    font-size: 15px;
+    height: 75px;
+    width: 100%;
     text-align: center;
     align-content: center;
     background: transparent;
     color: white;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+}
+
+.bt:hover {
+    background-color: green;
+}
+
+.bt:focus {
+    outline: 0;
+}
+
+#C {
+    width: 33.5%;
+}
+
+#CE {
+    width: 50%;
+}
+
+#pm {
+    width: 49.5%;
+}
+
+#divide {
+    color: black;
+}
+
+#divide:hover {
+    color: white;
+}
+
+#minus {
+    color: black;
+}
+
+#minus:hover {
+    color: white;
+}
+
+#X {
+    color: black;
+}
+
+#X:hover {
+    color: white;
+}
+
+#plus {
+    color: black;
+}
+
+#plus:hover {
+    color: white;
+}
+
+#bt {
+    display: flex;
+    flex-direction: row;
 }
 
 .img {
@@ -44,11 +112,4 @@ h1 {
     font-size: 1.1em;
     overflow: hidden;
     font-family: "Montserrat", sans-serif;
-}
-
-#firstRow {
-    align-content: stretch;
-    align-items: stretch;
-    align-self: stretch;
-    column-rule-width: 100px;
 }

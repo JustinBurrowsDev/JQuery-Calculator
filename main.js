@@ -21,9 +21,9 @@ $(".clear").on("click", function() {
     $("#input").empty()
 })
 
-//when some press on the button 1 i want the number 1 to show up in the input
+//when someone presses on the button 1 i want the number 1 to show up in the input
 //im using the ".push()" method on my array "result" hoping to push 1 or any given
-// number in the array into my input so the user can see what their calculating
+//number in the array into my input so the user can see what they're calculating
 
 $("#1").on("click", function() {
     result.push(1)
@@ -120,7 +120,7 @@ function calculation() {
     })
 }
 
-//to check if anything exists in result, and if anything exists in f
+//to check if anything exists in result, and if anything exists in finalResult
 function empty() {
     if (parseFloat(finalResult) != 0 && result.length == 0) {
         result[0] = finalResult
