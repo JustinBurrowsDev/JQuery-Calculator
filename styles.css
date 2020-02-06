@@ -1,0 +1,54 @@
+#content {
+    color: white;
+    font-size: 40px;
+    background-color: green;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    width: 20%;
+    height: 370px;
+    display: grid;
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.bt {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    align-content: center;
+    background: transparent;
+    color: white;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.img {
+    height: 12px;
+    width: 12px;
+    text-align: center;
+    align-content: center;
+    padding: none;
+    margin: none;
+    color: white;
+}
+
+#input {
+    margin: 0 auto;
+    height: 50px;
+    width: 99%;
+    background: transparent;
+    font-size: 1.1em;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+
+#firstRow {
+    align-content: stretch;
+    align-items: stretch;
+    align-self: stretch;
+    column-rule-width: 100px;
+}
