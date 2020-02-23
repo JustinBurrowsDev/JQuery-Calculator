@@ -9,4 +9,4 @@
 
 ## What Did I Learn? 
 
-![calculator Image]:(https://github.com/JustinBurrowsDev/JQuery-Calculator/blob/gh-pages/calculatorImg.png)
+![Calculator Image][calculatorImg.png]
