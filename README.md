@@ -8,3 +8,5 @@
 
 
 ## What Did I Learn? 
+
+![calculatorImg.png]
