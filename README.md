@@ -9,5 +9,10 @@
 
 ## What Did I Learn? 
 
-![][calculatorImg.png]
+HTML
+CSS Layout
+Javascript Fundamentals
+jQuery Fundamentals
+
+
 ![Calculator Image](calculatorImg.png)
