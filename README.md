@@ -9,4 +9,5 @@
 
 ## What Did I Learn? 
 
-![Calculator Image][calculatorImg.png]
+![][calculatorImg.png]
+![Calculator Image](calculatorImg.png)
